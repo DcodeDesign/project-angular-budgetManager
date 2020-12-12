@@ -1,38 +1,31 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {MatDividerModule} from '@angular/material/divider';
-import { ExempleAngularMaterialComponent } from './components/exemple-angular-material/exemple-angular-material.component';
-
 import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-// import {CostsComponent} from './components/costs/costs.component';
-// import {IncomesComponent} from './components/incomes/incomes.component';
+import { PrimaryNavigationComponent } from './components/primary-navigation/primary-navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ExempleAngularMaterialComponent,
     LoginComponent,
     DashboardComponent,
-    /*CostsComponent,
-    IncomesComponent*/
+    PrimaryNavigationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatIconModule,
-    MatDividerModule
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [
+    PrimaryNavigationComponent
+  ]
 })
 export class AppModule { }
+
+

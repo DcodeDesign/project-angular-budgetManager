@@ -1,9 +1,68 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "costs": [
+    {
+      "id": 1,
+      "title": "VOTRE DOMICILIATION EUROPEENNE POUR PayPal",
+      "date": "11/12/2020",
+      "montant": "10,00",
+      "devise": "EUR",
+      "compte": "BE54 0635 5070 4397"
+    },
+    {
+      "id": 2,
+      "title": "ADJUJE-BELU",
+      "date": "09/12/2020",
+      "montant": "14,40",
+      "devise": "EUR",
+      "compte": "BE54 0635 5070 4397"
+    },
+    {
+      "id": 3,
+      "title": "Societe wallonne des eaux",
+      "date": "05/12/2020",
+      "montant": "33,40",
+      "devise": "EUR",
+      "compte": "BE54 0635 5070 4397"
+    },
+    {
+      "id": 4,
+      "title": "Celine Mabille Loyer Decembre 2020",
+      "date": "07/12/2020",
+      "montant": "850,00",
+      "devise": "EUR",
+      "compte": "BE54 0635 5070 4397"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "Incomes": [
+    {
+      "id": 1,
+      "title": "FGTB NAMUR",
+      "date": "01/12/2020",
+      "montant": "1.403,25",
+      "devise": "EUR",
+      "compte": "BE54 0635 5070 4397"
+    },
+    {
+      "id": 2,
+      "title": "FGTB NAMUR",
+      "date": "01/11/2020",
+      "montant": "1.403,25",
+      "devise": "EUR",
+      "compte": "BE54 0635 5070 4397"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "compte": [
+    {
+      "id": 1,
+      "title": "COMPTE D'épargne",
+      "compte": "BE43 0836 3211 9701",
+      "type": "Comptes d'épargne"
+    },
+    {
+      "id": 2,
+      "title": "COMPTE BELFIUS COMFORT RED",
+      "compte": "BE54 0635 5070 4397",
+      "type": "Comptes de paiements"
+    }
+  ]
 }

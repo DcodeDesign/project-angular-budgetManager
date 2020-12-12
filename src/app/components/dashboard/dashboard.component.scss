@@ -1,0 +1,12 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-grid-list {
+  mat-grid-tile{
+    mat-card{
+      margin:10px;
+      width:100%;
+    }
+  }
+}

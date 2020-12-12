@@ -1,1 +1,36 @@
-<p>login works!</p>
+<div class="page-login">
+  <div class="container-login">
+
+    <h1>Log In</h1>
+    <p>Need a budgetManager account? <a href="" title="">Create an account</a></p>
+
+    <!--<label class="form-label">Enter your email</label>-->
+    <div class="input-group mb-3">
+      <!--<div class="input-group-prepend">
+        <span class="input-group-text " id="basic-addon1">@</span>
+      </div>-->
+      <input type="text" class="form-control" placeholder="Enter your email" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+
+
+    <!--<label class="form-label">Enter your password</label>-->
+    <div class="input-group mb-3">
+      <input [type]="hide ? 'password' : 'text'" class="form-control" placeholder="Enter your password"
+             aria-label="Enter your password" aria-describedby="button-addon2">
+      <div class="input-group-append">
+        <button type="button" class="btn btn-secondary "
+                (click)="hide = !hide"
+                [attr.aria-label]="'Hide password'"
+                [attr.aria-pressed]="hide">
+          <i *ngIf="hide" class="bi bi-eye-slash-fill"></i>
+          <i *ngIf="!hide" class="bi bi-eye-fill"></i>
+        </button>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-primary" [routerLink]="'/dashboard'">log In</button>
+
+  </div>
+  <div class="container-announcement">
+  </div>
+</div>

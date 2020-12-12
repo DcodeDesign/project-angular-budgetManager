@@ -1,0 +1,28 @@
+.page-login{
+  margin-top: 0;
+  border-left:5px solid #007bff;
+  height:100vh;
+  .container-login{
+    float:left;
+    overflow: auto;
+    padding: 5px 25px 5px 25px;
+    position:relative;
+    top:40vh;
+    transform: translateY(-50%);
+    width:445px;
+
+    .btn {
+      width:100%;
+    }
+
+  }
+  .container-announcement{
+    float:right;
+    overflow: auto;
+    width:calc(100% - 445px);
+    height:100vh;
+    background-color:grey;
+    background-image: url("../../../assets/smaran-alva-6l6GY7sLzRQ-unsplash.jpg");
+    background-size: cover;
+  }
+}

@@ -5,11 +5,12 @@ import { IncomesRoutingModule } from './incomes-routing.module';
 import { IncomesComponent } from './incomes.component';
 
 
+
 @NgModule({
   declarations: [IncomesComponent],
   imports: [
     CommonModule,
-    IncomesRoutingModule
+    IncomesRoutingModule,
   ]
 })
 export class IncomesModule { }
